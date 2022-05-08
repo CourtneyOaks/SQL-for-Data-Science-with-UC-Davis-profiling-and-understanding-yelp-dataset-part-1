@@ -12,7 +12,7 @@
 * ix. review table =  10000
 * x. tip table =  10000
 * xi. user table = 10000
-![CE_DataScientistRP_1](https://user-images.githubusercontent.com/102244119/166242977-9220557d-4803-44d2-8873-b8b85b758428.png)
+![Peer_review_records_table](https://user-images.githubusercontent.com/102244119/167318131-8f87f045-aa8c-4b63-be3a-b565daee885b.png)
 
 2. Find the total distinct records by either the foreign key or primary key for each table. If two foreign keys are listed in the table, please specify which foreign key.
 * i. Business = 10000 records for id
@@ -28,13 +28,13 @@
 * xi. Elite_years = 2780 records for user id
 
 SQL code used to arrive at answer:
-![CE_DataScientistRP_2](https://user-images.githubusercontent.com/102244119/166243100-c52090e6-1a36-4367-9098-3f115ac12680.png)
+![Peer_review_key](https://user-images.githubusercontent.com/102244119/167318165-4cbd3a61-c2f0-4c7f-b414-18bb3ec5b04b.png)
 
 3. Are there any columns with null values in the Users table? Indicate "yes," or "no."
 * Answer: No
 
 SQL code user to arrive at answer:
-![CE_DataScientistRP_3](https://user-images.githubusercontent.com/102244119/166243170-0977e9de-65fe-47e4-be90-b0f1bf2f24d9.png)
+![Peer_review_nulls](https://user-images.githubusercontent.com/102244119/167318224-9871c225-48ca-44a1-b9a4-f54ec52f99d0.png)
 
 4. For each table and column listed below, display the smallest (minimum), largest (maximum), and average (mean) value for the following fields:
 	
@@ -52,51 +52,53 @@ SQL code user to arrive at answer:
 		
 	v. Table: User, Column: Review_count
 	min: 0		max: 2000	avg: 24.2995
-![CE_DataScientistRP_4](https://user-images.githubusercontent.com/102244119/166243216-db06eef4-472f-4d63-ba25-97315700cd10.png)
+![Peer_review_stars](https://user-images.githubusercontent.com/102244119/167318251-ea44f9ce-1d10-47be-a9fc-48e3298d09f3.png)
 
 5. List the cities with the most reviews in descending order:
 * SQL code used to arrive at answer:
-![CE_DataScientistRP_5_1](https://user-images.githubusercontent.com/102244119/166243254-ffd07ffe-1735-46d9-9b65-f22a93688f04.png)
+![Peer_review_most_city](https://user-images.githubusercontent.com/102244119/167318307-0f9efb80-8b8a-4a00-9076-f33d16882202.png)
 
 * Copy and Paste the Result Below:
-![CE_DataScientistRP_5_2](https://user-images.githubusercontent.com/102244119/166243288-430674a6-a201-498d-9792-d46febdffa66.png)
+![Peer_review_most_rev_cities](https://user-images.githubusercontent.com/102244119/167318317-117504e5-18db-4584-8104-2e4ee0c99b0b.png)
 
 6. Find the distribution of star ratings to the business in the following cities:
 * i. Avon
 * SQL code used to arrive at answer:
-![CE_DataScientistRP_6_1](https://user-images.githubusercontent.com/102244119/166243318-a07d3ce1-9d28-41e8-bbb8-482bf626ac90.png)
+![Peer_review_P1_avon_1](https://user-images.githubusercontent.com/102244119/167317967-77914263-3455-4d79-8eb7-946a94c2864f.png)
 
-* Copy and Past the Resulting Table Below (2 columns as star rating and count):
-![CE_DataScientistRP_6_2](https://user-images.githubusercontent.com/102244119/166243361-a503cd90-48fd-416b-b960-2f937e5cd711.png)
+* Copy and Paste the Resulting Table Below (2 columns as star rating and count):
+![Peer_review_P1_avon_2](https://user-images.githubusercontent.com/102244119/167317993-3c7dfca1-e84c-488c-899d-831d1b3789bf.png)
 
 * ii. Beachwood
 * SQL code used to arrive at answer:
-![CE_DataScientistRP_6_3](https://user-images.githubusercontent.com/102244119/166243402-874b75fd-5214-472d-92ad-4da3aae29cc5.png)
+![Peer_review_P1_beachwood_1](https://user-images.githubusercontent.com/102244119/167318070-b535b742-63f8-4e86-8626-68b6d598a921.png)
 
-* Copy and Past the Resulting Table Below (2 columns as star rating and count):
-![CE_DataScientistRP_6_4](https://user-images.githubusercontent.com/102244119/166243419-bfa14108-9bc5-41e9-b38c-948c76162ac6.png)
+* Copy and Paste the Resulting Table Below (2 columns as star rating and count):
+![Peer_review_P1_beachwood_2](https://user-images.githubusercontent.com/102244119/167318080-8670f918-7178-4716-adbd-d955750ef12c.png)
 
 7. Find the top 3 users based on their total number of reviews:
 * SQL code used to arrive at answer:
-![CE_DataScientistRP_7_1](https://user-images.githubusercontent.com/102244119/166243460-f9bf5e30-9a0a-4f63-94eb-101956aa62b3.png)
+![Peer_review_top3users1](https://user-images.githubusercontent.com/102244119/167318398-bdcafa94-43ac-4608-a741-d3e8c397e1ce.png)
 
 * Copy and Paste the Result Below:
-![CE_DataScientistRP_7_2](https://user-images.githubusercontent.com/102244119/166243483-0f8db347-5087-4aa0-9380-613445d70ce4.png)
+![Peer_review_top3users2](https://user-images.githubusercontent.com/102244119/167318419-7b9db304-9a06-4b4c-9bef-eeb12d8df123.png)
 
 8. Does posing more reviews correlate with more fans? Answer: No
 * Please explain your findings and interpretation of the results: As you can see by the below result, more reviews does not result in more fans.
-![CE_DataScientistRP_8_1](https://user-images.githubusercontent.com/102244119/166243523-6354e364-806e-4ae8-8fd7-9e16b80910fa.png)
+![peer_review_fans](https://user-images.githubusercontent.com/102244119/167318441-eaad6fd9-ca07-448f-ab9e-1ac207925248.png)
 
 * SQL code used to arrive at answer:
-![CE_DataScientistRP_8_2](https://user-images.githubusercontent.com/102244119/166243579-e7c416ad-ad51-4017-a102-617669a10fca.png)
+![peer_review_fans2](https://user-images.githubusercontent.com/102244119/167318469-1f105ea2-2ad3-438a-ad09-71f1d8a81aec.png)
 
 9. Are there more reviews with the word "love" or with the word "hate" in them? Answer: Love
+![peer_review_landh2](https://user-images.githubusercontent.com/102244119/167318536-eb3c3887-3798-4bf2-8f46-5d4d1589fb92.png)
+
 * SQL code used to arrive at answer:
-![CE_DataScientistRP_9](https://user-images.githubusercontent.com/102244119/166243608-c7106b83-5cf4-4af5-b08e-2a8e8dd30008.png)
+![peer_review_landh](https://user-images.githubusercontent.com/102244119/167318494-76fa5d9e-d6ef-4e69-899f-a499ce2e815e.png)
 
 10. Find the top 10 users with the most fans:
 * SQL code used to arrive at answer:
-![CE_DataScientistRP_10_1](https://user-images.githubusercontent.com/102244119/166243649-7d8682ea-4e24-46e1-b23e-ec23670eb267.png)
+![peer_review_top10_1](https://user-images.githubusercontent.com/102244119/167318553-01e0eeb6-0b22-4b59-9364-9df050c78b4f.png)
 
 * Copy and Paste the Result Below:
-![CE_DataScientistRP_10_2](https://user-images.githubusercontent.com/102244119/166243679-171130fd-5328-4d4e-8b15-df39559f4ac2.png)
+![peer_review_top10_2](https://user-images.githubusercontent.com/102244119/167318586-4c85a330-b4f7-49af-a103-a5c8231956c8.png)
